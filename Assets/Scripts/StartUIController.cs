@@ -18,6 +18,7 @@ public class StartUIController : MonoBehaviour
 
     void Start()
     {
+        Screen.SetResolution(1280, 720, false);
         if (PlayerPrefs.GetString("sh", "sh01") == "sh01")
         {
             blue.isOn = true;
